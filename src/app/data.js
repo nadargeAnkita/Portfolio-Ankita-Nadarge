@@ -21,20 +21,67 @@ export const projectsData = [
     id: 1,
     name: "iTask",
     description: "Your personal task manager",
-    demoLink: "https://ecotracker.example.com",
+    demoLink: "https://itask-taskmanager-7t6p1xpab-nadargeankitas-projects.vercel.app",
   },
   {
     id: 2,
     name: "PassOP",
     description: "Password manager",
-    demoLink: "https://artgalleryonline.example.com",
+    demoLink: "https://passop-passwordmanager-bdp1co24l-nadargeankitas-projects.vercel.app",
   },
   {
     id: 3,
-    name: "AI-Content-Generator",
-    description: "Generate your content using AI",
-    demoLink: "https://budgetplanner.example.com",
+    name: "E-Commerce Sales Dashboard",
+    description: "E-Commerce Sales Report",
+    demoLink: "https://github.com/nadargeAnkita/E-Commerce-Sales-Dashboard.git",
   },
+  {
+    id: 4,
+    name: "Brain Tumor Classification",
+    description: "Brain Tumor Classification",
+    demoLink: "https://github.com/nadargeAnkita/Brain-Tumor-Classification.git",
+  },
+  {
+    id: 5,
+    name: "Fish Classification",
+    description: "Fish Classification",
+    demoLink: "https://github.com/nadargeAnkita/Fish-Classification.git",
+  },
+  {
+    id: 6,
+    name: "Integrated Retail Analysis for Store Optimization",
+    demoLink: "",
+  },
+  {
+    id: 7,
+    name: "Local Food Wastage Management System",
+    description: "Local Food Wastage Management System",
+    demoLink: "https://github.com/nadargeAnkita/Local_food_wastage_management_system.git",
+  },
+  {
+    id: 8,
+    name: "PhonePe Transaction Insights",
+    description: "PhonePe Transaction Insights",
+    demoLink: "",
+  },
+  {
+    id: 9,
+    name: "Shopper Spectrum Customer Segmentation and Product Recommendations in E-Commerce",
+    demoLink: "",
+  },
+  {
+    id: 10,
+    name: "Vaccination Data Analysis and Visualization",
+    description: "Vaccination Data Analysis and Visualization",
+    demoLink: "https://github.com/nadargeAnkita/Vaccination-Data-Analysis-and-Visualization.git",
+  },
+  {
+    id: 11,
+    name: "Yes Bank",
+    description: "Yes Bank",
+    demoLink: "",
+  },
+ 
  
 ];
 
