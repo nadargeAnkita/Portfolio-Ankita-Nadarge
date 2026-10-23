@@ -1,88 +1,68 @@
-/*
-Websites:
-
-- https://github.com/pmndrs/gltfjsx (GLTF JSX for 3D Models)
-- https://lucide.dev/icons/ (Lucide Icons)
-- https://github.com/anuraghazra/github-readme-stats (Github Readme Stats)
-- https://skillicons.dev (Skill Icons to show skills)
-- https://github-readme-streak-stats.herokuapp.com (Github Readme Streak Stats)
-
-:root {
-  --background: 27 27 27;
-  --foreground: 225 225 225;
-  --muted: 115 115 115;
-  --accent: 254 254 91; #FEFE5B
-}
-
-*/
 
 export const projectsData = [
   {
     id: 1,
-    name: "iTask",
-    description: "Your personal task manager",
-    demoLink: "https://itask-taskmanager-7t6p1xpab-nadargeankitas-projects.vercel.app",
+    name: "HydroGPT – AI-Based Hydropower Forecasting System",
+    description:
+      "An AI-powered hydropower forecasting assistant using RAG, LLaMA 3, and a ReAct-based reasoning workflow. Includes document ingestion, embedding generation, semantic retrieval with ChromaDB, a FastAPI backend, and an interactive Streamlit frontend.",
+    demoLink: "https://github.com/nadargeAnkita/HydroGPT.git",
   },
   {
     id: 2,
-    name: "PassOP",
-    description: "Password manager",
-    demoLink: "https://passop-passwordmanager-bdp1co24l-nadargeankitas-projects.vercel.app",
+    name: "AI Resume Screener – Semantic Job Matching System",
+    description:
+      "An AI-powered resume screening application that parses PDF and DOCX resumes, generates Sentence-BERT embeddings, ranks candidates using cosine similarity, and generates candidate evaluation reports with LLaMA 3.",
+    demoLink: "https://github.com/nadargeAnkita/ai-resume-screener.git",
   },
   {
     id: 3,
-    name: "E-Commerce Sales Dashboard",
-    description: "E-Commerce Sales Report",
-    demoLink: "https://github.com/nadargeAnkita/E-Commerce-Sales-Dashboard.git",
+    name: "Brain Tumor Classification",
+    description:
+      "A machine learning project focused on medical image classification.",
+    demoLink:
+      "https://github.com/nadargeAnkita/Brain-Tumor-Classification.git",
   },
   {
     id: 4,
-    name: "Brain Tumor Classification",
-    description: "Brain Tumor Classification",
-    demoLink: "https://github.com/nadargeAnkita/Brain-Tumor-Classification.git",
+    name: "Fish Classification",
+    description:
+      "An image classification project exploring machine learning techniques for recognizing fish categories.",
+    demoLink:
+      "https://github.com/nadargeAnkita/Fish-Classification.git",
   },
   {
     id: 5,
-    name: "Fish Classification",
-    description: "Fish Classification",
-    demoLink: "https://github.com/nadargeAnkita/Fish-Classification.git",
+    name: "Shopper Spectrum – Customer Segmentation",
+    description:
+      "An e-commerce analytics project focused on customer segmentation and product recommendations.",
+    demoLink: "https://github.com/nadargeAnkita/Shopper-Spectrum-Customer-Segmentation-Product-Recommendation-System.git",
   },
   {
     id: 6,
-    name: "Integrated Retail Analysis for Store Optimization",
-    demoLink: "",
+    name: "E-Commerce Sales Dashboard",
+    description:
+      "A sales analytics project focused on exploring business performance and communicating insights through a dashboard.",
+    demoLink:
+      "https://github.com/nadargeAnkita/E-Commerce-Sales-Dashboard.git",
   },
-  {
-    id: 7,
-    name: "Local Food Wastage Management System",
-    description: "Local Food Wastage Management System",
-    demoLink: "https://github.com/nadargeAnkita/Local_food_wastage_management_system.git",
-  },
-  {
-    id: 8,
-    name: "PhonePe Transaction Insights",
-    description: "PhonePe Transaction Insights",
-    demoLink: "",
-  },
+ 
   {
     id: 9,
-    name: "Shopper Spectrum Customer Segmentation and Product Recommendations in E-Commerce",
-    demoLink: "",
+    name: "Vaccination Data Analysis and Visualization",
+    description:
+      "A data analysis project exploring vaccination data through visualization and trend analysis.",
+    demoLink:
+      "https://github.com/nadargeAnkita/Vaccination-Data-Analysis-and-Visualization.git",
   },
   {
     id: 10,
-    name: "Vaccination Data Analysis and Visualization",
-    description: "Vaccination Data Analysis and Visualization",
-    demoLink: "https://github.com/nadargeAnkita/Vaccination-Data-Analysis-and-Visualization.git",
+    name: "Local Food Wastage Management System",
+    description:
+      "A management system project addressing food wastage and surplus food distribution.",
+    demoLink:
+      "https://github.com/nadargeAnkita/Local_food_wastage_management_system.git",
   },
-  {
-    id: 11,
-    name: "Yes Bank",
-    description: "Yes Bank",
-    demoLink: "",
-  },
- 
- 
+
 ];
 
 export const BtnList = [
@@ -91,7 +71,7 @@ export const BtnList = [
   { label: "Projects", link: "/projects", icon: "projects", newTab: false },
   { label: "Contact", link: "/contact", icon: "contact", newTab: false },
   {
-    label: "Github",
+    label: "GitHub",
     link: "https://github.com/nadargeAnkita",
     icon: "github",
     newTab: true,
@@ -103,7 +83,7 @@ export const BtnList = [
     newTab: true,
   },
   {
-    label: "Leetcode",
+    label: "LeetCode",
     link: "https://leetcode.com/u/nadargeAnkita/",
     icon: "leetcode",
     newTab: true,
@@ -115,5 +95,3 @@ export const BtnList = [
     newTab: true,
   },
 ];
-
-

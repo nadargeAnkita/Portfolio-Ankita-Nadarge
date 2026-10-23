@@ -1,3 +1,4 @@
+
 import Image from "next/image";
 import bg from "../../../../public/background/about-background.png";
 
@@ -10,24 +11,37 @@ export default function Home() {
     <>
       <Image
         src={bg}
-        alt="background-image"
-        className="-z-50 fixed w-full h-full top-0 left-0 object-cover object-center opacity-25"
+        alt="Portfolio background"
+        priority
+        className="-z-50 fixed inset-0 h-full w-full object-cover object-center opacity-25"
       />
 
-      <div className="w-full h-screen absolute top-1/2 -translate-y-1/2 left-0">
+      <div className="pointer-events-none absolute left-0 top-1/2 h-screen w-full -translate-y-1/2">
         <RenderModel>
           <HatModel />
         </RenderModel>
       </div>
 
-      <div className="relative w-full h-screen flex flex-col items-center justify-center">
-        <div className="absolute flex flex-col items-center text-center top-[60%] left-1/2 -translate-y-1/2 -translate-x-1/2">
-          <h1 className="font-bold text-7xl text-accent">Ankita Nadarge</h1>
-          <p className="from-neutral-500 text-foreground text-xl">
-            Meet the wizard behind this portfolio
+      <main className="relative flex min-h-screen w-full flex-col items-center justify-center px-5">
+        <div className="absolute left-1/2 top-[60%] flex w-full -translate-x-1/2 -translate-y-1/2 flex-col items-center px-4 text-center">
+          <p className="mb-3 text-sm font-semibold uppercase tracking-[0.3em] text-foreground/70">
+            About Me
+          </p>
+
+          <h1 className="text-4xl font-bold text-accent sm:text-6xl md:text-7xl">
+            Ankita Nadarge
+          </h1>
+
+          <p className="mt-4 max-w-2xl text-lg text-foreground sm:text-xl">
+            AI/ML Enthusiast | Python Developer | Data Analytics
+          </p>
+
+          <p className="mt-3 max-w-xl text-sm leading-7 text-foreground/80 sm:text-base">
+            Turning data into insights and exploring how machine learning
+            can solve real-world problems.
           </p>
         </div>
-      </div>
+      </main>
 
       <AboutDetails />
     </>
